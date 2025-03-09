@@ -1,0 +1,13 @@
+#root {
+  background-color: darkslategray;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #f97316, #9333ea);
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+

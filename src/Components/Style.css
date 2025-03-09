@@ -1,0 +1,188 @@
+/* Add CSS for animation */
+.image-zoom {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Zoom-in effect on hover */
+.image-zoom:hover {
+  animation: bounce 1s ease infinite;
+  opacity: 0.8; /* Optional: fade effect */
+}
+
+/* Optional: add a border or shadow for more effect */
+.image-zoom:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Start at normal position */
+  }
+  25% {
+    transform: translateY(-10px); /* Move up */
+  }
+  50% {
+    transform: translateY(0); /* Go back to original position */
+  }
+  75% {
+    transform: translateY(-5px); /* Move slightly up */
+  }
+  100% {
+    transform: translateY(0); /* Back to original position */
+  }
+}
+
+a{
+  transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+  background-color: #b64242;
+  color: white;
+}
+
+
+/* Define the animation for background effect */
+@keyframes backgroundAnimation {
+  0% {
+      background-position: center;
+  }
+  50% {
+      background-position: top left;
+  }
+  100% {
+      background-position: center;
+  }
+}
+
+
+/* ========== Heading Slide-in Animation ========== */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-text {
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* ========== Image Zoom-in Effect ========== */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.image-zoom {
+  animation: zoomIn 1s ease-out forwards;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* ========== Fade-in Effect for Experience Section ========== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* ========== Add Delay for List Items ========== */
+.fade-in li:nth-child(1) { animation-delay: 0.2s; }
+.fade-in li:nth-child(2) { animation-delay: 0.4s; }
+.fade-in li:nth-child(3) { animation-delay: 0.6s; }
+.fade-in li:nth-child(4) { animation-delay: 0.8s; }
+.fade-in li:nth-child(5) { animation-delay: 1s; }
+
+
+/* Slide-in effect for headings */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-text {
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* Fade-in effect for paragraphs */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+
+/* Navbar link styles */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Underline hover effect */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: fuchsia;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover {
+  color: fuchsia;
+  border-radius: 7px;
+}
+
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Smooth scrolling effect */
+html {
+  scroll-behavior: smooth;
+}
