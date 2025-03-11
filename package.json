@@ -1,9 +1,20 @@
 {
-  "homepage": "https://ravi9471.github.io/My_Protfolio/",
   "name": "my-portfolio",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "About me",
+  "homepage": "https://ravi9471.github.io/My_Protfolio/",
+  "bugs": {
+    "url": "https://github.com/ravi9471/My_Protfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi9471/My_Protfolio.git"
+  },
+  "license": "ISC",
+  "author": "Ravi",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
