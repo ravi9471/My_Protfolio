@@ -1,7 +1,4 @@
 import React from 'react'
-import Gmail from '../Images/Gmail.jpg'
-import Linkdin from '../Images/Linkdin.png'
-import Gitimage from '../Images/Gitimage.png'
 import './Style.css';
 
 
@@ -16,10 +13,10 @@ function Contacts() {
         </div>
         <div className="flex justify-center space-x-6 mt-5">
           <a href="https://www.linkedin.com/in/ravi-kumar-tiwari-8b1772185" target="_blank" rel="noopener noreferrer">
-            <img className="h-13 w-13 rounded-full" src={Linkdin} alt="LinkedIn" />
+            <img className="h-13 w-13 rounded-full" src="Images/Linkdin.png" alt="LinkedIn" />
           </a>
-            <img className="h-13 w-13 rounded-full" src={Gitimage} alt="GitHub" />
-            <img className="h-13 w-13 rounded-full" src={Gmail} alt="Gmail" />
+            <img className="h-13 w-13 rounded-full" src="Images/Gitimage.png" alt="GitHub" />
+            <img className="h-13 w-13 rounded-full" src="Images/Gmail.jpg" alt="Gmail" />
         </div>
         
     </div>

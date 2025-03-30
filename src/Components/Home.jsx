@@ -1,5 +1,4 @@
 import React from 'react'
-import Profile from '../Images/Profile.jpeg'
 //import './App.css'
 import './Style.css'
 import { motion } from "framer-motion";
@@ -31,7 +30,7 @@ function Home() {
                 <div className="group image-container absolute w-100 h-100 border-b-4 rounded-lg shadow-lg animate-fadeInText right-39 transition duration-300">
                     {/* Glowing Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-red-600 blur-xl opacity-100"></div>
-                    <img className="w-full h-full object-cover rounded-lg relative" src={Profile} alt="Profile" />
+                    <img className="w-full h-full object-cover rounded-lg relative" src='Images\Profile.jpeg' alt="Profile" />
                 </div>
                 <hr></hr>
         </div>

@@ -1,4 +1,3 @@
-import Profile from "../Images/Profile.jpeg";
 import React from "react";
 import "./Style.css";
 import { motion } from "framer-motion";
@@ -22,7 +21,7 @@ function About() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <img className="w-full h-full object-cover" src={Profile} alt="Profile" />
+          <img className="w-full h-full object-cover" src='Images\Profile.jpeg' alt="Profile" />
         </motion.div>
 
         {/* About Text */}

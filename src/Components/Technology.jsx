@@ -13,11 +13,11 @@ function Technology() {
 
       {/* Image Section with Zoom Effect */}
       <div className="flex justify-center items-center space-x-16 p-20">
-        <img className="image-zoom h-[100px] w-[100px]" src="src/Images/Javascript.jpg" alt="JavaScript" />
-        <img className="image-zoom h-[100px] w-[100px]" src="src/Images/Html.png" alt="HTML" />
-        <img className="image-zoom h-[100px] w-[100px]" src="src/Images/Css.jpg" alt="CSS" />
-        <img className="image-zoom h-[100px] w-[100px]" src="src/Images/Gitimage.png" alt="Git" />
-        <img className="image-zoom h-[100px] w-[100px]" src="src/Images/RecactImage.jpg" alt="React" />
+        <img className="image-zoom h-[100px] w-[100px]" src="Images/Javascript.jpg" alt="JavaScript" />
+        <img className="image-zoom h-[100px] w-[100px]" src="Images/Html.png" alt="HTML" />
+        <img className="image-zoom h-[100px] w-[100px]" src="Images/Css.jpg" alt="CSS" />
+        <img className="image-zoom h-[100px] w-[100px]" src="Images/Gitimage.png" alt="Git" />
+        <img className="image-zoom h-[100px] w-[100px]" src="Images/RecactImage.jpg" alt="React" />
       </div>
     </div>
   );
