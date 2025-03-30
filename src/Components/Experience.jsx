@@ -43,7 +43,7 @@ function Experience() {
           {/* Job Title */}
           <div className="text-xl font-semibold">
             <h2>JavaScript Developer</h2>
-            <h3 className="text-fuchsia-400 mt-2">08/2020 - 11/2022</h3>
+            <h3 className="text-fuchsia-400 mt-2">08/2020 - 11/2021</h3>
           </div>
 
           {/* Job Description */}
